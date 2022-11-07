@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, nav, a{
+  font-family: 'Josefin Sans', sans-serif, 'Josefin Slab', serif, verdana; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif, 'Open Sans', sans-serif, arial;
+}
+
+        /* 
+    --------------------------------------------------------
+    HEADER SECTION 
+    --------------------------------------------------------
+    */
+
+    .Header_box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        background-color: rgb(226, 226, 226);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 20px;
+    }
+
+    .mobile-image-source{
+        height: 100px;
+    }
+
+    .hamburger-menu-class{
+        display: none;
+    }
+
+    .fa-solid.fa-bars{
+        display: none;
+    }
+
+    .hamburger_menu_section{
+        display: flex;
+        align-self: center;
+    }
+
+    .shopping-cart-ikon-a{
+        color: black;
+    }
+
+    nav{
+        align-self: center;
+    }
+
+    .fa-solid.fa-cart-shopping{
+        align-self: center;
+        font-size: 28px;
+    }
+
+    nav a{
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+    .front-page{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+    }
+
+
+    .front-page img{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .front-page button {
+        background-color: lightskyblue;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 80%;
+        top: 30%;
+        z-index: 5;
+    }
+
+    .section_2{
+        margin: 20px;
+    }
+
+    .girl_or_men_chooser{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .girl_or_men_chooser img{
+        width: 100%;
+    }
+
+    .men_section{
+        align-self: center;
+    }
+
+    .first_page_with_content{
+        background-image: url("images/Skifertak.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 65vh;
+        padding: auto;
+    }
+
+    .row{
+        display: flex;
+        height: 100%; 
+    }
+
+    .col-2{
+        align-self: flex-end;
+        background-color: rgb(216, 214, 214);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10%;
+    }
+
+    .col-2 a{
+        color: white;
+        text-decoration: none; 
+        background-color: #ff523b;
+        padding: 8px 20px;
+        margin:30px 0;
+        border-radius: 30px;
+    }
+
+    .col-2 h1{
+        padding: 10px;
+    }
+
+
+    /* <!------- MEDIA QUERY -----!>  */
+
+
+@media(max-width: 700px){
+
+
+    /* 
+--------------------------------------------------------
+HEADER SECTION 
+--------------------------------------------------------
+*/
+
+.hamburger-menu-class{
+    display: none;
+}
+
+.fa-solid.fa-bars{
+    display: block;
+}
+
+.Header_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(226, 226, 226);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input{
+    display: none;
+}
+
+
+.hamburger_menu_section{
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.fa-solid.fa-bars{
+    font-size: 28px;
+}
+
+/*
+.hamburger_menu_section{
+    display: flex;
+    gap: 30px;
+}
+
+
+.fa-solid.fa-bars, .fa-solid.fa-cart-shopping{
+    font-size: 30px;
+}
+*/
+.mobile-image-source{
+    height: 100px;
+}
+
+nav {
+    display: none;
+}
+
+
+
+#hamburger-menu:checked ~ nav {
+    display:block;
+    position: absolute;
+    right: 0%;
+    top: 103.5px;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+ nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.front-page{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+}
+
+
+.front-page img{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.front-page button {
+    background-color: lightskyblue;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 80%;
+    top: 30%;
+    z-index: 5;
+}
+
+.section_2{
+    margin: 20px;
+}
+
+.girl_or_men_chooser{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.girl_or_men_chooser img{
+    width: 100%;
+}
+
+.men_section{
+    align-self: center;
+}
+
+.first_page_with_content{
+    background-image: url("images/Skifertak.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.row{
+    display: flex;
+    height: 100%; 
+}
+
+.col-2{
+    align-self: flex-end;
+    background-color: rgb(216, 214, 214);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.col-2 a{
+    color: white;
+    text-decoration: none; 
+    background-color: #ff523b;
+    padding: 8px 20px;
+    margin:30px 0;
+    border-radius: 30px;
+}
+
+.col-2 h1{
+    padding: 10px;
+}
+
+    /* 
+--------------------------------------------------------
+HEADER SECTION DONE
+--------------------------------------------------------
+*/
