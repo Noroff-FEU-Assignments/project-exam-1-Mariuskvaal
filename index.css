@@ -147,6 +147,88 @@ p {
         padding: 10px;
     }
 
+            /* 
+    --------------------------------------------------------
+    HEADER SECTION DONE
+    --------------------------------------------------------
+    */
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION 
+    --------------------------------------------------------
+    */
+
+
+
+
+    .footer_section{
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    .footer_container{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0%;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+    .footer-container1, .footer-container2, .footer-container3, .footer-container4{
+        flex-basis: 40%;
+        text-align: center;
+    }
+
+    .footer-container1 h3, .footer-container2 h3, .footer-container3 h3, .footer-container4 h3{
+        text-decoration: underline;
+    }
+
+
+
+    .footer-container1 p, .app_icons, .footer-container2 p, .footer-container3 ul li{
+        color: #777171;
+        font-size: 16px;
+        margin-top: 5%;
+        list-style: none;
+    }
+
+    .app_icons, .social-meida-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 10%;
+        font-size: 24px;
+    }
+
+    .app_icons a i, .social-meida-icons a i{
+        color: #777171;
+    }
+
+    .copyright{
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    .copyright p{
+        color: white;
+        text-align: center;
+    }
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION DONE
+    --------------------------------------------------------
+    */
+
+
+
 
     /* <!------- MEDIA QUERY -----!>  */
 
