@@ -172,13 +172,12 @@ p {
     }
 
     .blog-category{
-        padding: 0 10vw;
+        width: 100%;
         font-size: 30px;
         font-weight: 500;
         margin-bottom: 40px;
         text-transform: capitalize;
         text-align: center;
-        text-decoration: underline;
     }
 
     .blog-container{
@@ -188,6 +187,7 @@ p {
        overflow-x: auto;
        scroll-behavior: smooth;
        height: 500px;
+   
     }
 
     .blog-container::-webkit-scrollbar{
@@ -216,6 +216,7 @@ p {
 
     .blog-btn{
         position: absolute;
+        padding: 10px;
         bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
@@ -251,7 +252,7 @@ p {
 
     .blog-short-description{
         width: 100%;
-        height: 20px;
+        height: 40px;
         line-height: 20px;
         overflow: hidden;
         opacity: 0.5s;
@@ -332,22 +333,6 @@ p {
 
     })
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /* 
     --------------------------------------------------------
     SLIDER CAROSUELL DONE
@@ -360,11 +345,7 @@ p {
     --------------------------------------------------------
     */
 
-
-
-
     .footer_section{
-        background-color: black;
         padding-top: 30px;
         padding-bottom: 30px;
         color: white;
@@ -381,8 +362,8 @@ p {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-
     }
+
     .footer-container1, .footer-container2, .footer-container3, .footer-container4{
         flex-basis: 40%;
         text-align: center;
@@ -391,8 +372,6 @@ p {
     .footer-container1 h3, .footer-container2 h3, .footer-container3 h3, .footer-container4 h3{
         text-decoration: underline;
     }
-
-
 
     .footer-container1 p, .app_icons, .footer-container2 p, .footer-container3 ul li{
         color: #777171;
