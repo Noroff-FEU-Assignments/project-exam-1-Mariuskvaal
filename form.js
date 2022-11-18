@@ -10,7 +10,6 @@ const subject = document.querySelector("#subject");
 const subjectError = document.querySelector("#subjectError")
 
 function validateForm(){
-    event.preventDefault();
 
     if (checkLength(name.value, 0) === true) {
         nameError.style.display = "none";
