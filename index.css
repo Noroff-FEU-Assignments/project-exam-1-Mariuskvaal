@@ -583,25 +583,7 @@ HEADER SECTION DONE
     text-decoration: underline 4px;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: center;
-}
+.rendered{
+    width: 100%;
 
-.content{
-    margin-top: 20px;
-}
-
-.details {
-    font-size: 15px;
-}
-
-.name{
-    font-size: 15px;
-}
-
-.results{
-    display: flex;
-    flex-direction: column;
-    height: 50px;
 }
