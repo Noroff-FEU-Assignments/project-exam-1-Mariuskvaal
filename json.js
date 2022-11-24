@@ -17,7 +17,14 @@ async function getBlogs() {
     for (let i = 0; i < json.length; i++) {
         console.log(json[i].title);
 
-        Container.innerHTML += `<h4 class="result">${json[i].slug}</h4>`;
+        Container.innerHTML += `<a href="details.html?id=${json[i].id}" class="card">
+                                <h4 class="overskrifblogg">${json[i].slug}</h4>
+                                <p>${json[i].excerp}</p>
+
+        
+        
+
+    </a>` ;
     }                                                                                     
  }
 
