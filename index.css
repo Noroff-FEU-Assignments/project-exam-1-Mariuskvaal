@@ -583,6 +583,10 @@ HEADER SECTION DONE
     text-decoration: underline 4px;
 }
 
+.descritopn{
+    text-decoration: none;
+}
+
 .rendered{
     width: 100%;
 
