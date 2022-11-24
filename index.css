@@ -583,11 +583,47 @@ HEADER SECTION DONE
     text-decoration: underline 4px;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    text-decoration: none;
+    color: black;
+    border: black solid 2px;
+    max-width: 400px;
+}
+
 .descritopn{
     text-decoration: none;
 }
 
 .rendered{
     width: 100%;
+}
 
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-button{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 40px;
+    align-items: center;
+}
+
+.load-more-button span{
+    font-size: 16px;
 }
