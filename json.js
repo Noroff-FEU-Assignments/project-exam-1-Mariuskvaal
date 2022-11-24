@@ -1,22 +1,32 @@
-const baseUrl ="https://taktilbehor.com/wp-json/wp/v2/posts";
+const Container = document.querySelector(".content");
 
-const blogContainer = document.querySelector(".blogs");
+const url ="https://taktilbehor.com/wp-json/wp/v2/posts";
 
-async function getBlogs(url){
+const loadMoreButton = document.querySelector(".load-more-button");
+
+async function getBlogs() {
+
+    try {
 
     const response = await fetch(url);
 
-    const blogs = await response.json();
+    const json = await response.json();
 
-    blogs.forEach(function(blog){
-        blogContainer.innerHTML += "
-        <h2> Hello world </h2>
-        "
-        
+    console.log(json);
+
+    console.log(json[0].title);
+
+
+    json.forEach(function(blog) {
+        Container.innerHTML += `<div class="card">
+                                            <div class="details">
+                                                <h4 class="name">${json[i].title}</h4>`;
     });
+ }
 
+ catch(error) {
+    console.log(error)
+ }
+    };
 
-
-}
-
-getBlogs(baseUrl);
+getBlogs();
