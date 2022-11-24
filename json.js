@@ -17,7 +17,7 @@ async function getBlogs() {
     for (let i = 0; i < json.length; i++) {
         console.log(json[i].title);
 
-        Container.innerHTML += `<h4 class="result">${json[i].id}</h4>`;
+        Container.innerHTML += `<h4 class="result">${json[i].slug}</h4>`;
     }                                                                                     
  }
 
