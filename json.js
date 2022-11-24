@@ -14,14 +14,11 @@ async function getBlogs() {
 
     console.log(json);
 
-    console.log(json[0].title);
+    for (let i = 0; i < json.length; i++) {
+        console.log(json[i].title);
 
-
-    json.forEach(function(blog) {
-        Container.innerHTML += `<div class="card">
-                                            <div class="details">
-                                                <h4 class="name">${json[i].title}</h4>`;
-    });
+        Container.innerHTML += `<h4 class="result">${json[i].id}</h4>`;
+    }                                                                                     
  }
 
  catch(error) {
