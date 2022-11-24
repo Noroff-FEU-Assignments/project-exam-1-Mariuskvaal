@@ -19,7 +19,7 @@ async function getBlogs() {
 
         Container.innerHTML += `<a href="details.html?id=${json[i].id}" class="card">
                                 <h4 class="overskrifblogg">${json[i].slug}</h4>
-                                <p>${json[i].excerp}</p>
+                                <p>${json[i].content[0]}</p>
 
         
         
