@@ -627,3 +627,8 @@ HEADER SECTION DONE
 .load-more-button span{
     font-size: 16px;
 }
+
+img{
+    width: 400px;
+    height: 400px;
+}
