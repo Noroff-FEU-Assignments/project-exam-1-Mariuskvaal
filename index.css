@@ -779,14 +779,12 @@ BLOG DETAIL START
     margin-bottom: 50px;
 }
 
-
 .roof-details{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 
 #wrapper-for-details{
     display: flex;
@@ -804,6 +802,7 @@ BLOG DETAIL START
     align-self: center;
     padding-bottom: 200px;
 }
+
 .wp-block-image{
     display: flex;
     justify-content: center;

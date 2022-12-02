@@ -40,7 +40,7 @@ function createHtml (details){
                            
                             <h1 class="detail.overskrift"> ${details.title.rendered} </h1>
                             <div id="detail.content"> ${details.content.rendered} </div>
-                            <p class="detail.date"> ${details.date} </p>
+                            <p id="detail.date"> ${details.date} </p>
                                 `;
 }
 
