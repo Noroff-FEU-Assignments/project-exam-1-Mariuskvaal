@@ -66,10 +66,6 @@ p {
     }
 
 
-
-
-
-
     .front-page{
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -475,6 +471,56 @@ BLOG PAGE END
 --------------------------------------------------------
 */
 
+/* 
+--------------------------------------------------------
+BLOG DETAIL START
+--------------------------------------------------------
+*/
+
+.roof-details-wrapper{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.roof-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#wrapper-for-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center
+}
+
+#detail.content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 200px;
+}
+.wp-block-image{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* 
+--------------------------------------------------------
+BLOG DETAIL END
+--------------------------------------------------------
+*/
+
     /* 
     --------------------------------------------------------
     FOOTER SECTION DONE
@@ -554,7 +600,7 @@ nav {
     display:block;
     position: absolute;
     right: 0%;
-    top: 103.5px;
+    top: 67.5px;
     background-color: rgb(226, 226, 226);
     width: 100%;
     text-align: center;
@@ -717,5 +763,55 @@ img{
 /* 
 --------------------------------------------------------
 BLOG PAGE END
+--------------------------------------------------------
+*/
+
+/* 
+--------------------------------------------------------
+BLOG DETAIL START
+--------------------------------------------------------
+*/
+
+.roof-details-wrapper{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.roof-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#wrapper-for-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center
+}
+
+#detail.content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 200px;
+}
+.wp-block-image{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* 
+--------------------------------------------------------
+BLOG DETAIL END
 --------------------------------------------------------
 */

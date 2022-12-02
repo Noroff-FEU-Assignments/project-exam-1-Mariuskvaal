@@ -22,7 +22,7 @@ async function getBlogs() {
     for (let i = 0; i < json.length; i++) {
         console.log(json[i].id);
 
-        Container.innerHTML += `<a class="card" href="details2.html?id=${json[i].id}">
+        Container.innerHTML += `<a  href="details2.html?id=${json[i].id}" class="card">
                                 <h2 class="overskrifblogg">${json[i].title.rendered}</h2>
                                 <div class="rendered"> ${json[i].content.rendered} </div>
     </a>` ;
