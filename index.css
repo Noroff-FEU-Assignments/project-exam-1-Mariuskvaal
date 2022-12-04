@@ -525,11 +525,11 @@ BLOG DETAIL END
 --------------------------------------------------------
 */
 
-    /* 
+/* 
     --------------------------------------------------------
-    FOOTER SECTION DONE
+FOOTER SECTION DONE
     --------------------------------------------------------
-    */
+*/
 
 /* 
 --------------------------------------------------------
@@ -539,8 +539,8 @@ ABOUT START
 
 .about-section{
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -875,9 +875,69 @@ ABOUT  START
 --------------------------------------------------------
 */
 
+.about-section{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .about-row{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap: 50px;
-    flex-direction: column;
 }
+
+.image-row{
+    text-align: center;
+}
+
+.img-inside-row{
+    height: 300px;
+    width: 300px;
+}
+
+.text-headline{
+    text-decoration: underline;
+}
+
+.text-p{
+    margin-top: 10px;
+}
+
+    /* 
+    --------------------------------------------------------
+    FOOTER SECTION 
+    --------------------------------------------------------
+    */
+
+    .footer_section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: rgb(0, 0, 0);
+        padding-top: 20px;
+    }
+
+    .footer_container{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;        
+        background-color: lightgrey;
+        padding-top: 20px;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+/* 
+--------------------------------------------------------
+ABOUT END
+--------------------------------------------------------
+*/
