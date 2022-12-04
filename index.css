@@ -346,12 +346,16 @@ p {
         padding-top: 30px;
         padding-bottom: 30px;
         color: white;
+        padding-top: 20px;
     }
 
     .footer_container{
         padding-left: 5%;
         padding-right: 5%;
         margin-bottom: 0%;
+        padding-bottom: 0%;        
+        background-color: lightgrey;
+        padding-top: 20px;
     }
 
     .footer_row{
@@ -391,7 +395,6 @@ p {
 
     .copyright{
         background-color: black;
-        margin-top: 20px;
     }
 
     .copyright p{
