@@ -2,13 +2,13 @@
 
 ## Description
 
-Online store where you can buy rainjackets.
+Blog / website where you can read about roof accessories
 Includes four sides.
 
 - Home page
-- Products
-- Product Page 
-- Contact Form
+- About
+- Blog
+- Contact
 
 ## Built With
 
